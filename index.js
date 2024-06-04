@@ -5,7 +5,7 @@ let oldMousePos;
 let mouseTimer;
 let oldMousePostData;
 
-const mapTime = [50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 1000, 1500, 2000];
+const mapTime = [50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 1000, 1500, 2000, 2500];
 const keys = ['left', 'right', 'up', 'down', 'pageup', 'pagedown', async () => {
     const k = ['up', 'down'];
     _.keyTap('tab', 'control');
